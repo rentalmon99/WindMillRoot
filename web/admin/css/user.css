@@ -1,0 +1,56 @@
+body    
+{
+    background: rgba(196,212,175,0.3);
+}
+.table
+{
+    background: rgba(196,212,175,0.5);
+}
+.table > tbody > tr > td
+{
+    border-top: 0 !important;
+}
+.table > thead > tr > th
+{
+    border-top: 4px solid  rgb(196,212,175) !important;
+    border-bottom:  1px solid  rgba(0,0,0,0.1) !important;
+}
+.breadcrumb
+{
+    background: rgba(196,212,175,0.5);
+    border-top:2px solid rgba(108,134,114,0.2);
+    border-bottom:2px solid rgba(108,134,114,0.2);
+    border-left:0;
+    border-right:0;
+    border-radius: 0;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.navbar-inverse
+{       
+    border-top:2px solid rgba(108,134,114,0.3);
+    border-bottom:2px solid rgba(108,134,114,0.3);
+    border-left:0;
+    border-right:0;
+    border-radius: 0px;
+    background: rgba(196,212,175,0.5);
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.navbar-right
+{
+    font-family: 'Alegreya Sans SC'; font-size: 22px;
+}
+.navbar-brand
+{
+    margin-top:-20px;
+}
+.form-control
+{
+    border-radius: 0;
+}
+.form-control::placeholder
+{
+    opacity: 0.80;
+    font-weight: 400;
+}

@@ -1,0 +1,50 @@
+.project-side-nav
+{
+    text-decoration: none;
+}
+.admin-body
+{
+    font-family: 'calibri';
+    font-size: 20px;
+}
+.panel-footer small
+{
+    float: right;
+}
+.goto-top-button
+{
+    position:fixed;
+    bottom:50px;
+    left:50px;
+}
+.profile-image
+{
+    width:100%; 
+}
+#user-profile-image
+{
+    width:115px;
+    height:115px;
+    border-radius:200px;	
+    overflow: hidden;
+}
+.validation_message span
+{
+    color:red;
+}
+.navbar-menu
+{
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    padding: 20px;
+}
+.navbar-menu a
+{
+    padding:0 10px;
+    font-size: 20px;
+}
+.r-title
+{
+    font-size: 20px;
+}
